@@ -287,7 +287,7 @@ p, li
         background-repeat: no-repeat
         background-size: cover
         width: 100%
-        height: 200%
+        height: 100%
         position: absolute
         top: -127px
         left: 0
@@ -315,6 +315,11 @@ p, li
             padding: 0 40px
             padding-top: 100px
             margin-bottom: 150px
+            p
+                font-size: 14px
+                line-height: 2.286
+                margin-bottom: 20px
+                text-align: center
             &_views
                 position: absolute
                 top: -17%
@@ -338,15 +343,13 @@ p, li
                     font-size: 24px
                     font-weight: bold
                     color: #fff
-                    line-height: .5em
+                    line-height: 1.2em
                 p
                     font-size: 16px
                     color: #fff
-            p
-                font-size: 14px
-                line-height: 2.286
-                margin-bottom: 20px
-                text-align: center
+                    line-height: 1.2em
+                    margin-bottom: 0
+            
             h2
                 font-size: 24px
                 font-family: 'Montserrat', sans-serif
@@ -365,7 +368,94 @@ p, li
                 height: 60px
                 font-size: 16px
                 font-weight: bold
-              
+.buy
+    background: #fff
+    position: relative 
+    padding-top: 65px
+    &:before
+        content: ''
+        background: url(../img/buy-bg.svg) 
+        background-repeat: no-repeat
+        background-size: cover
+        width: 100%
+        height: 100%
+        position: absolute
+        top: -127px
+        left: 0
+    .wr
+        position: relative
+    .section_head
+        
+        h2
+            color: #fff
+            margin-bottom: 20px
+        p
+            color: #fff
+            font-size: 18px
+            text-align: center
+    &_slider
+        h3
+            font-size: 18px
+            font-weight: bold
+            font-family: 'Montserrat', sans-serif
+        p
+        .item-rating
+            text-align-last: auto
+            font-size: 0
+            padding-bottom: 10px
+        .item-star
+            display: inline-block
+            vertical-align: middle
+            width: 20px
+            height: 20px
+            padding-right: 5px
+    &_how
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        justify-content: space-between
+        .card
+            border-radius: 15px
+            background: #fff
+            width: 263px
+            height: 263px
+            display: -webkit-flex
+            display: -moz-flex
+            display: -ms-flex
+            display: -o-flex
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            span
+                line-height: 1.2
+                text-align: center
+                font-weight: bold
+                margin-bottom: 20px
+                font-size: 30px
+                margin-left: auto
+                margin-right: auto
+            p
+                font-size: 16px
+                line-height: 1.2
+                text-align: center
+                margin-bottom: 20px
+                font-weight: bold
+            img
+                height: 69px
+                width: 69px
+.swiper-container 
+    width: 100%
+    height: 100%
+    background: #fff
+    display: -webkit-flex
+    display: -moz-flex
+    display: -ms-flex
+    display: -o-flex
+    display: flex
+    flex-direction: column
 
         
     
