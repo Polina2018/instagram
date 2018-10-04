@@ -29,25 +29,22 @@ a
   color: inherit
   text-decoration: none
   cursor: pointer
-$orange: #fd8200
-$gray: #59595d
+
 section
     padding-top: 40px
     padding-bottom: 100px
 h1
-    font-size: 5vmin
-    font-weight: 700
-    line-height: 1em
+    font-size: 36px
+    font-weight: bold
 h2
-    font-size: 24px
-    font-weight: 700
+    font-size: 30px
+    font-weight: bold
 h3
     font-size: 20px
     font-weight: 700
 h4
     font-size: 17px
-h1, h2, h3, h4, h5, li, p, span
-    color: #4a4a4a
+
 p, li
     font-size: 16px
 
@@ -281,19 +278,21 @@ p, li
     background: #fff
     position: relative 
     padding-top: 65px
+    padding-bottom: 200px
     &:before
         content: ''
         background: url(../img/Vector2.png) 
         background-repeat: no-repeat
         background-size: cover
         width: 100%
-        height: 100%
+        height: 105%
         position: absolute
         top: -127px
         left: 0
-        
+        z-index: 1
     .wr
         position: relative
+        z-index: 2
     .section_head
     &_body
         display: -webkit-flex
@@ -304,7 +303,7 @@ p, li
         flex-wrap: wrap
         justify-content: center
         .card
-            margin: 0 30px
+            margin: 0 38px
             border-radius: 15px
             background-color: rgb(255, 255, 255)
             box-shadow: 0px 33px 60px 0px rgba(166, 54, 181, 0.2)
@@ -312,14 +311,15 @@ p, li
             width: 263px
             height: 403px
    
-            padding: 0 40px
+            padding: 0 45px
             padding-top: 100px
-            margin-bottom: 150px
+            margin-bottom: 135px
             p
                 font-size: 14px
                 line-height: 2.286
                 margin-bottom: 20px
                 text-align: center
+                color: #000
             &_views
                 position: absolute
                 top: -17%
@@ -343,11 +343,11 @@ p, li
                     font-size: 24px
                     font-weight: bold
                     color: #fff
-                    line-height: 1.2em
+                    line-height: .8em
                 p
                     font-size: 16px
                     color: #fff
-                    line-height: 1.2em
+                    line-height: 1.8em
                     margin-bottom: 0
             
             h2
@@ -368,54 +368,117 @@ p, li
                 height: 60px
                 font-size: 16px
                 font-weight: bold
+                left: 50%
+                transform: translateX(-50%)
 .buy
     background: #fff
     position: relative 
-    padding-top: 65px
+    padding-top: 0
     &:before
         content: ''
         background: url(../img/buy-bg.svg) 
         background-repeat: no-repeat
         background-size: cover
         width: 100%
-        height: 100%
+        height: 121%
         position: absolute
         top: -127px
         left: 0
+        z-index: 1
     .wr
         position: relative
+        z-index: 2
     .section_head
-        
+        margin-bottom: 35px
         h2
             color: #fff
-            margin-bottom: 20px
+            margin-bottom: 35px
+        p
+            color: #fff
+            font-size: 16px
+            text-align: center
+            width: 50%
+            line-height: 1.313
+            margin-left: auto
+            margin-right: auto
+        .rating
+            display: -webkit-flex
+            display: -moz-flex
+            display: -ms-flex
+            display: -o-flex
+            display: flex
+            align-items: center
+            justify-content: center
+            margin-bottom: 24px
+            span
+                display: inline-block
+                width: 50px
+                height: 50px
+                margin-right: 26px
+                &:last-child
+                    margin-right: 0
+            span.active
+                background: url(../img/star-active.png)
+                background-repeat: no-repeat
+            span.active.half
+                background: url(../img/star-half.png)
+                background-repeat: no-repeat
+    .section_head2
+        margin-bottom: 60px
+        h2
+            color: #fff
+            margin-bottom: 16px
         p
             color: #fff
             font-size: 18px
             text-align: center
+            width: 50%
+            line-height: 1.313
+            margin-left: auto
+            margin-right: auto
+            margin-bottom: 0
+           
+            
     &_slider
+        
+        margin-bottom: 130px
+        position: relative
         h3
             font-size: 18px
             font-weight: bold
             font-family: 'Montserrat', sans-serif
+            margin-bottom: 20px
         p
+            font-size: 16px
+            line-height: 1.5
+            font-weight: 500
+        .swiper-buy
+            width: 947px 
+        .swiper-slide
+            padding: 34px 58px
+            border-radius: 15px
+            
+            max-width: 100%
+            
+
         .item-rating
             text-align-last: auto
             font-size: 0
-            padding-bottom: 10px
+            margin-bottom: 15px
         .item-star
             display: inline-block
             vertical-align: middle
-            width: 20px
-            height: 20px
-            padding-right: 5px
+            width: 27px
+            height: 25px
+            margin-right: 5px
     &_how
         display: -webkit-flex
         display: -moz-flex
         display: -ms-flex
         display: -o-flex
         display: flex
-        justify-content: space-between
+        justify-content: center
+        margin-bottom: 75px
         .card
             border-radius: 15px
             background: #fff
@@ -428,12 +491,13 @@ p, li
             display: flex
             flex-direction: column
             align-items: center
-            justify-content: center
+            margin: 0 39px
+            padding: 43px
             span
                 line-height: 1.2
                 text-align: center
                 font-weight: bold
-                margin-bottom: 20px
+                margin-bottom: 13px
                 font-size: 30px
                 margin-left: auto
                 margin-right: auto
@@ -442,10 +506,45 @@ p, li
                 line-height: 1.2
                 text-align: center
                 margin-bottom: 20px
-                font-weight: bold
+                font-weight: normal
             img
                 height: 69px
                 width: 69px
+    &_info
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        h3
+            width: 100%
+            text-align: center
+            font-size: 18px
+            color: #fff
+            line-height: 1.2
+            margin-bottom: 55px
+    .buy_info__card
+        width: 26%
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        justify-content: center
+        align-items: center
+        img
+            margin-right: 10px
+          
+        p
+            font-size: 18px
+            color: #fff
+            line-height: 1.2
+
+            
+        
+            
 .swiper-container 
     width: 100%
     height: 100%
@@ -455,11 +554,65 @@ p, li
     display: -ms-flex
     display: -o-flex
     display: flex
-    flex-direction: column
-
-        
+    height: 226px
+    border-radius: 15px
     
-                
-            
+.swiper-slide
+    background: #fff
+    display: -webkit-flex
+    display: -moz-flex
+    display: -ms-flex
+    display: -o-flex
+    display: flex
+    flex-direction: column
+.swiper-button-buy-next
+    background: url(../img/right-arrow.svg) !important
+    background-size: 50px 40px !important
+    background-position: center !important
+    background-repeat: no-repeat !important
+    height: 50px !important
+    width: 40px !important
+    margin: 0 !important
+    top: 50% !important
+    transform: translateY(-50%)
+    right: 49px !important
+    z-index: 2
+    
+.swiper-button-buy-prev
+    background: url(../img/right-arrow.svg) !important
+    background-repeat: no-repeat !important
+    background-size: 50px 40px !important
+    background-position: center !important
+    height: 50px !important
+    width: 40px !important
+    transform: rotate(180deg)
+    margin: 0 !important
+    top: 39% !important 
+    z-index: 2
+    left: 55px !important 
+        
+.swiper-pagination
+    left: 50%
+    transform: translateY(-50%)
+    bottom: -23%
+.swiper-pagination-bullet  
+    background: none !important
+    border: 5px solid rgb(255, 255, 255) !important
+    
+    width: 17px !important
+    height: 17px !important
+    margin-right: 10px
+    opacity: 1 !important
+    &:last-child
+        margin-right: 0
+.swiper-pagination-bullet-active
+    width: 17px !important
+    height: 17px  !important   
+    border: 0 !important
+    background-color: rgb(255, 255, 255) !important
+    
+
+    
+
             
    
