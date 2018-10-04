@@ -66,7 +66,7 @@ p, li
     transition: all .3s ease
     &:hover
 .section_head
-    
+    z-index: 20
     margin-bottom: 110px
     h2
         text-align: center
@@ -125,7 +125,7 @@ p, li
         display: flex
 
         li
-            margin-right: 29px
+            margin-left: 29px
             display: -webkit-flex
             display: -moz-flex
             display: -ms-flex
@@ -145,7 +145,6 @@ p, li
             padding: 0px 16px
             height: 30px
             border-radius: 25px
-            margin-right: 10px
             a
                 color: #392da7
                 letter-spacing: 0.1px
@@ -175,6 +174,7 @@ p, li
         align-items: center
         z-index: 1
         height: 100%
+        position: relative
     &_info
         z-index: 1
         width: 50%
@@ -226,10 +226,9 @@ p, li
             width: 262px
             height: 60px
             font-weight: bold
-            margin-right: 30px
             bottom: 163px
             position: absolute
-            left: 293px
+            
 .likigram 
     background: #f9fbff
     position: relative
@@ -237,7 +236,7 @@ p, li
     background-repeat: no-repeat
     background-size: contain
     background-position: bottom
-    padding-bottom: 200px
+    padding-bottom: 175px
     &:after
         background: url(../img/Vector.png)
         background-repeat: no-repeat
@@ -278,7 +277,98 @@ p, li
                 font-size: 14px
                 line-height: 1.5
                 text-align: center
+.package
+    background: #fff
+    position: relative 
+    padding-top: 65px
+    &:before
+        content: ''
+        background: url(../img/Vector2.png) 
+        background-repeat: no-repeat
+        background-size: cover
+        width: 100%
+        height: 200%
+        position: absolute
+        top: -127px
+        left: 0
+        
+    .wr
+        position: relative
+    .section_head
+    &_body
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        .card
+            margin: 0 30px
+            border-radius: 15px
+            background-color: rgb(255, 255, 255)
+            box-shadow: 0px 33px 60px 0px rgba(166, 54, 181, 0.2)
+            position: relative
+            width: 263px
+            height: 403px
    
+            padding: 0 40px
+            padding-top: 100px
+            margin-bottom: 150px
+            &_views
+                position: absolute
+                top: -17%
+                left: 50%
+                transform: translateX(-50%)
+                background-color: rgb(57, 45, 167)
+                border-radius: 50%
+                width: 146px
+                height: 146px
+                display: -webkit-flex
+                display: -moz-flex
+                display: -ms-flex
+                display: -o-flex
+                display: flex
+                align-items: center
+                justify-content: center
+                flex-direction: column
+        
+
+                span
+                    font-size: 24px
+                    font-weight: bold
+                    color: #fff
+                    line-height: .5em
+                p
+                    font-size: 16px
+                    color: #fff
+            p
+                font-size: 14px
+                line-height: 2.286
+                margin-bottom: 20px
+                text-align: center
+            h2
+                font-size: 24px
+                font-family: 'Montserrat', sans-serif
+                color: rgb(57, 45, 167)
+                font-weight: bold
+                text-align: center
+
+            .btn
+                position: absolute
+                bottom: 9%
+                border-radius: 10px
+                background-image: -moz-linear-gradient( 0deg, rgb(169,53,180) 0%, rgb(77,94,210) 100%)
+                background-image: -webkit-linear-gradient( 0deg, rgb(169,53,180) 0%, rgb(77,94,210) 100%)
+                background-image: -ms-linear-gradient( 0deg, rgb(169,53,180) 0%, rgb(77,94,210) 100%)
+                width: 166px
+                height: 60px
+                font-size: 16px
+                font-weight: bold
+              
+
+        
+    
                 
             
             
