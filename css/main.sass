@@ -65,7 +65,7 @@ p, li
     background-image: -moz-linear-gradient( 0deg, rgb(255,10,70) 0%, rgb(255,162,30) 100%)
     background-image: -webkit-linear-gradient( 0deg, rgb(255,10,70) 0%, rgb(255,162,30) 100%)
     background-image: -ms-linear-gradient( 0deg, rgb(255,10,70) 0%, rgb(255,162,30) 100%)
-    box-shadow: 0px 10px 37px 0px rgba(0, 0, 0, 0.5)
+    
     font-size: 16px
     color: rgb(249, 251, 255)
     width: 262px
@@ -456,11 +456,13 @@ p, li
                 &:last-child
                     margin-right: 0
             span.active
-                background: url(../img/star-active.png)
+                background: url(../img/star-active.svg)
                 background-repeat: no-repeat
+                background-size: contain
             span.active.half
-                background: url(../img/star-half.png)
+                background: url(../img/star-half.svg)
                 background-repeat: no-repeat
+                background-size: contain
     .section_head2
         margin-bottom: 60px
         h2
@@ -631,7 +633,7 @@ p, li
     left: 55px !important 
         
 .swiper-pagination
-    left: 50%
+    left: 46%
     transform: translateY(-50%)
     bottom: -23%
 .swiper-pagination-bullet  

@@ -80,7 +80,6 @@ p, li {
   background-image: -moz-linear-gradient(0deg, #ff0a46 0%, #ffa21e 100%);
   background-image: -webkit-linear-gradient(0deg, #ff0a46 0%, #ffa21e 100%);
   background-image: -ms-linear-gradient(0deg, #ff0a46 0%, #ffa21e 100%);
-  box-shadow: 0px 10px 37px 0px rgba(0, 0, 0, 0.5);
   font-size: 16px;
   color: #f9fbff;
   width: 262px;
@@ -509,20 +508,22 @@ p, li {
           margin-right: 0; }
       /* line 458, /Users/Polik/Desktop/instagram/css/main.sass */
       .buy .section_head .rating span.active {
-        background: url(../img/star-active.png);
-        background-repeat: no-repeat; }
-      /* line 461, /Users/Polik/Desktop/instagram/css/main.sass */
+        background: url(../img/star-active.svg);
+        background-repeat: no-repeat;
+        background-size: contain; }
+      /* line 462, /Users/Polik/Desktop/instagram/css/main.sass */
       .buy .section_head .rating span.active.half {
-        background: url(../img/star-half.png);
-        background-repeat: no-repeat; }
-  /* line 464, /Users/Polik/Desktop/instagram/css/main.sass */
+        background: url(../img/star-half.svg);
+        background-repeat: no-repeat;
+        background-size: contain; }
+  /* line 466, /Users/Polik/Desktop/instagram/css/main.sass */
   .buy .section_head2 {
     margin-bottom: 60px; }
-    /* line 466, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 468, /Users/Polik/Desktop/instagram/css/main.sass */
     .buy .section_head2 h2 {
       color: #fff;
       margin-bottom: 16px; }
-    /* line 469, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 471, /Users/Polik/Desktop/instagram/css/main.sass */
     .buy .section_head2 p {
       color: #fff;
       font-size: 18px;
@@ -532,42 +533,42 @@ p, li {
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 0; }
-  /* line 480, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 482, /Users/Polik/Desktop/instagram/css/main.sass */
   .buy_slider {
     margin-bottom: 130px;
     position: relative; }
-    /* line 484, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 486, /Users/Polik/Desktop/instagram/css/main.sass */
     .buy_slider h3 {
       font-size: 18px;
       font-weight: bold;
       font-family: 'Montserrat', sans-serif;
       margin-bottom: 20px; }
-    /* line 489, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 491, /Users/Polik/Desktop/instagram/css/main.sass */
     .buy_slider p {
       font-size: 16px;
       line-height: 1.5;
       font-weight: 500; }
-    /* line 493, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 495, /Users/Polik/Desktop/instagram/css/main.sass */
     .buy_slider .swiper-buy {
       width: 947px; }
-    /* line 495, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 497, /Users/Polik/Desktop/instagram/css/main.sass */
     .buy_slider .swiper-slide {
       padding: 34px 58px;
       border-radius: 15px;
       max-width: 100%; }
-    /* line 502, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 504, /Users/Polik/Desktop/instagram/css/main.sass */
     .buy_slider .item-rating {
       text-align-last: auto;
       font-size: 0;
       margin-bottom: 15px; }
-    /* line 506, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 508, /Users/Polik/Desktop/instagram/css/main.sass */
     .buy_slider .item-star {
       display: inline-block;
       vertical-align: middle;
       width: 27px;
       height: 25px;
       margin-right: 5px; }
-  /* line 512, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 514, /Users/Polik/Desktop/instagram/css/main.sass */
   .buy_how {
     display: -webkit-flex;
     display: -moz-flex;
@@ -576,7 +577,7 @@ p, li {
     display: flex;
     justify-content: center;
     margin-bottom: 75px; }
-    /* line 520, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 522, /Users/Polik/Desktop/instagram/css/main.sass */
     .buy_how .card {
       border-radius: 15px;
       background: #fff;
@@ -591,7 +592,7 @@ p, li {
       align-items: center;
       margin: 0 39px;
       padding: 43px; }
-      /* line 534, /Users/Polik/Desktop/instagram/css/main.sass */
+      /* line 536, /Users/Polik/Desktop/instagram/css/main.sass */
       .buy_how .card span {
         line-height: 1.2;
         text-align: center;
@@ -600,18 +601,18 @@ p, li {
         font-size: 30px;
         margin-left: auto;
         margin-right: auto; }
-      /* line 542, /Users/Polik/Desktop/instagram/css/main.sass */
+      /* line 544, /Users/Polik/Desktop/instagram/css/main.sass */
       .buy_how .card p {
         font-size: 16px;
         line-height: 1.2;
         text-align: center;
         margin-bottom: 20px;
         font-weight: normal; }
-      /* line 548, /Users/Polik/Desktop/instagram/css/main.sass */
+      /* line 550, /Users/Polik/Desktop/instagram/css/main.sass */
       .buy_how .card img {
         height: 69px;
         width: 69px; }
-  /* line 551, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 553, /Users/Polik/Desktop/instagram/css/main.sass */
   .buy_info {
     display: -webkit-flex;
     display: -moz-flex;
@@ -620,7 +621,7 @@ p, li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; }
-    /* line 559, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 561, /Users/Polik/Desktop/instagram/css/main.sass */
     .buy_info h3 {
       width: 100%;
       text-align: center;
@@ -629,7 +630,7 @@ p, li {
       line-height: 1.2;
       margin-bottom: 55px;
       font-weight: normal; }
-  /* line 567, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 569, /Users/Polik/Desktop/instagram/css/main.sass */
   .buy .buy_info__card {
     width: 24.5%;
     display: -webkit-flex;
@@ -639,16 +640,16 @@ p, li {
     display: flex;
     justify-content: center;
     align-items: center; }
-    /* line 576, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 578, /Users/Polik/Desktop/instagram/css/main.sass */
     .buy .buy_info__card img {
       margin-right: 10px; }
-    /* line 579, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 581, /Users/Polik/Desktop/instagram/css/main.sass */
     .buy .buy_info__card p {
       font-size: 18px;
       color: #fff;
       line-height: 1.2; }
 
-/* line 587, /Users/Polik/Desktop/instagram/css/main.sass */
+/* line 589, /Users/Polik/Desktop/instagram/css/main.sass */
 .swiper-container {
   width: 100%;
   height: 100%;
@@ -661,7 +662,7 @@ p, li {
   height: 226px;
   border-radius: 15px; }
 
-/* line 599, /Users/Polik/Desktop/instagram/css/main.sass */
+/* line 601, /Users/Polik/Desktop/instagram/css/main.sass */
 .swiper-slide {
   background: #fff;
   display: -webkit-flex;
@@ -671,7 +672,7 @@ p, li {
   display: flex;
   flex-direction: column; }
 
-/* line 607, /Users/Polik/Desktop/instagram/css/main.sass */
+/* line 609, /Users/Polik/Desktop/instagram/css/main.sass */
 .swiper-button-buy-next {
   background: url(../img/right-arrow.svg) !important;
   background-size: 50px 40px !important;
@@ -685,7 +686,7 @@ p, li {
   right: 49px !important;
   z-index: 2; }
 
-/* line 620, /Users/Polik/Desktop/instagram/css/main.sass */
+/* line 622, /Users/Polik/Desktop/instagram/css/main.sass */
 .swiper-button-buy-prev {
   background: url(../img/right-arrow.svg) !important;
   background-repeat: no-repeat !important;
@@ -699,13 +700,13 @@ p, li {
   z-index: 2;
   left: 55px !important; }
 
-/* line 633, /Users/Polik/Desktop/instagram/css/main.sass */
+/* line 635, /Users/Polik/Desktop/instagram/css/main.sass */
 .swiper-pagination {
-  left: 50%;
+  left: 46%;
   transform: translateY(-50%);
   bottom: -23%; }
 
-/* line 637, /Users/Polik/Desktop/instagram/css/main.sass */
+/* line 639, /Users/Polik/Desktop/instagram/css/main.sass */
 .swiper-pagination-bullet {
   background: none !important;
   border: 5px solid white !important;
@@ -713,18 +714,18 @@ p, li {
   height: 17px !important;
   margin-right: 10px;
   opacity: 1 !important; }
-  /* line 645, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 647, /Users/Polik/Desktop/instagram/css/main.sass */
   .swiper-pagination-bullet:last-child {
     margin-right: 0; }
 
-/* line 647, /Users/Polik/Desktop/instagram/css/main.sass */
+/* line 649, /Users/Polik/Desktop/instagram/css/main.sass */
 .swiper-pagination-bullet-active {
   width: 17px !important;
   height: 17px  !important;
   border: 0 !important;
   background-color: white !important; }
 
-/* line 652, /Users/Polik/Desktop/instagram/css/main.sass */
+/* line 654, /Users/Polik/Desktop/instagram/css/main.sass */
 .foot_purple {
   background: url(../img/foot-purple.svg);
   background-repeat: no-repeat;
@@ -734,7 +735,7 @@ p, li {
   position: relative;
   padding-bottom: 120px;
   z-index: 1; }
-  /* line 661, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 663, /Users/Polik/Desktop/instagram/css/main.sass */
   .foot_purple:before {
     content: '';
     background: url(../img/line.png);
@@ -747,7 +748,7 @@ p, li {
     left: 0;
     z-index: 1; }
 
-/* line 672, /Users/Polik/Desktop/instagram/css/main.sass */
+/* line 674, /Users/Polik/Desktop/instagram/css/main.sass */
 .why {
   position: relative;
   padding-top: 240px;
@@ -755,7 +756,7 @@ p, li {
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 70px; }
-  /* line 679, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 681, /Users/Polik/Desktop/instagram/css/main.sass */
   .why:before {
     content: '';
     background: url(../img/why-bg.png);
@@ -767,7 +768,7 @@ p, li {
     top: 0;
     left: 0;
     z-index: 1; }
-  /* line 690, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 692, /Users/Polik/Desktop/instagram/css/main.sass */
   .why:after {
     background: url(../img/foot-purple.svg);
     background-repeat: no-repeat;
@@ -779,16 +780,16 @@ p, li {
     top: 0;
     left: 0;
     z-index: 1; }
-  /* line 702, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 704, /Users/Polik/Desktop/instagram/css/main.sass */
   .why .section_head {
     margin-bottom: 45px; }
-    /* line 704, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 706, /Users/Polik/Desktop/instagram/css/main.sass */
     .why .section_head h2 {
       text-align: center;
       width: 50%;
       margin-left: auto;
       margin-right: auto; }
-  /* line 710, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 712, /Users/Polik/Desktop/instagram/css/main.sass */
   .why_body {
     display: -webkit-flex;
     display: -moz-flex;
@@ -798,33 +799,33 @@ p, li {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 37px; }
-    /* line 719, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 721, /Users/Polik/Desktop/instagram/css/main.sass */
     .why_body .wh {
       padding: 0 28px;
       width: 47%;
       margin-bottom: 59px; }
-      /* line 723, /Users/Polik/Desktop/instagram/css/main.sass */
+      /* line 725, /Users/Polik/Desktop/instagram/css/main.sass */
       .why_body .wh h3 {
         font-family: 'Montserrat', sans-serif;
         font-size: 18px;
         line-height: 1.2;
         font-weight: bold;
         margin-bottom: 15px; }
-      /* line 729, /Users/Polik/Desktop/instagram/css/main.sass */
+      /* line 731, /Users/Polik/Desktop/instagram/css/main.sass */
       .why_body .wh p {
         font-size: 16px;
         line-height: 1.5; }
-  /* line 732, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 734, /Users/Polik/Desktop/instagram/css/main.sass */
   .why_footer {
     font-size: 16px; }
-    /* line 734, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 736, /Users/Polik/Desktop/instagram/css/main.sass */
     .why_footer p {
       text-align: center; }
 
-/* line 736, /Users/Polik/Desktop/instagram/css/main.sass */
+/* line 738, /Users/Polik/Desktop/instagram/css/main.sass */
 .footer {
   padding: 54px 0; }
-  /* line 738, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 740, /Users/Polik/Desktop/instagram/css/main.sass */
   .footer .wr {
     display: -webkit-flex;
     display: -moz-flex;
@@ -833,7 +834,7 @@ p, li {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  /* line 746, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 748, /Users/Polik/Desktop/instagram/css/main.sass */
   .footer .foot_logo {
     width: 180px;
     max-width: 100%;
@@ -843,12 +844,12 @@ p, li {
     display: -o-flex;
     display: flex;
     flex-direction: column; }
-    /* line 755, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 757, /Users/Polik/Desktop/instagram/css/main.sass */
     .footer .foot_logo img {
       object-fit: contain;
       margin-bottom: 10px;
       margin-top: 15px; }
-    /* line 759, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 761, /Users/Polik/Desktop/instagram/css/main.sass */
     .footer .foot_logo p {
       color: rgba(0, 0, 0, 0.502);
       font-size: 12px;
@@ -857,7 +858,7 @@ p, li {
       width: 60%;
       margin-left: auto;
       margin-right: auto; }
-  /* line 767, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 769, /Users/Polik/Desktop/instagram/css/main.sass */
   .footer .foot_menu {
     width: 570px;
     max-width: 100%;
@@ -867,16 +868,16 @@ p, li {
     display: -o-flex;
     display: flex;
     justify-content: space-between; }
-    /* line 776, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 778, /Users/Polik/Desktop/instagram/css/main.sass */
     .footer .foot_menu ul {
       width: 48.5%; }
-    /* line 778, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 780, /Users/Polik/Desktop/instagram/css/main.sass */
     .footer .foot_menu li {
       color: #392da7;
       line-height: 1.5;
       font-size: 14px; }
 
-/* line 785, /Users/Polik/Desktop/instagram/css/main.sass */
+/* line 787, /Users/Polik/Desktop/instagram/css/main.sass */
 .banner_img2 .img {
   width: 557px;
   height: 525px;
@@ -887,12 +888,12 @@ p, li {
   background-position: 50% 13%;
   position: absolute; }
 
-/* line 794, /Users/Polik/Desktop/instagram/css/main.sass */
+/* line 796, /Users/Polik/Desktop/instagram/css/main.sass */
 .about {
   background: #f9fbff;
   padding-top: 146px;
   position: relative; }
-  /* line 799, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 801, /Users/Polik/Desktop/instagram/css/main.sass */
   .about:after {
     background: url(../img/Vector.png);
     background-repeat: no-repeat;
@@ -904,7 +905,7 @@ p, li {
     left: 0;
     z-index: 0;
     content: ''; }
-  /* line 810, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 812, /Users/Polik/Desktop/instagram/css/main.sass */
   .about_body {
     display: -webkit-flex;
     display: -moz-flex;
@@ -912,7 +913,7 @@ p, li {
     display: -o-flex;
     display: flex;
     flex-wrap: wrap; }
-    /* line 820, /Users/Polik/Desktop/instagram/css/main.sass */
+    /* line 822, /Users/Polik/Desktop/instagram/css/main.sass */
     .about_body .row {
       width: 100%;
       display: -webkit-flex;
@@ -923,7 +924,7 @@ p, li {
       flex-direction: row;
       justify-content: space-between;
       margin-bottom: 190px; }
-      /* line 831, /Users/Polik/Desktop/instagram/css/main.sass */
+      /* line 833, /Users/Polik/Desktop/instagram/css/main.sass */
       .about_body .row_info {
         width: 47.5%;
         display: -webkit-flex;
@@ -933,47 +934,47 @@ p, li {
         display: flex;
         flex-direction: column;
         justify-content: center; }
-        /* line 840, /Users/Polik/Desktop/instagram/css/main.sass */
+        /* line 842, /Users/Polik/Desktop/instagram/css/main.sass */
         .about_body .row_info h2 {
           margin-bottom: 12px; }
-        /* line 842, /Users/Polik/Desktop/instagram/css/main.sass */
+        /* line 844, /Users/Polik/Desktop/instagram/css/main.sass */
         .about_body .row_info p {
           line-height: 1.2;
           margin-bottom: 40px;
           width: 78%; }
-      /* line 847, /Users/Polik/Desktop/instagram/css/main.sass */
+      /* line 849, /Users/Polik/Desktop/instagram/css/main.sass */
       .about_body .row:nth-child(2n) {
         flex-direction: row-reverse; }
-        /* line 849, /Users/Polik/Desktop/instagram/css/main.sass */
+        /* line 851, /Users/Polik/Desktop/instagram/css/main.sass */
         .about_body .row:nth-child(2n) .row_info {
           align-items: flex-end;
           width: 41.2%; }
-          /* line 852, /Users/Polik/Desktop/instagram/css/main.sass */
+          /* line 854, /Users/Polik/Desktop/instagram/css/main.sass */
           .about_body .row:nth-child(2n) .row_info p {
             text-align: right;
             width: 100%;
             margin-bottom: 28px; }
-        /* line 856, /Users/Polik/Desktop/instagram/css/main.sass */
+        /* line 858, /Users/Polik/Desktop/instagram/css/main.sass */
         .about_body .row:nth-child(2n) img {
           left: auto;
           right: 175px;
           top: -80px; }
-      /* line 860, /Users/Polik/Desktop/instagram/css/main.sass */
+      /* line 862, /Users/Polik/Desktop/instagram/css/main.sass */
       .about_body .row:nth-child(3n) {
         padding-top: 16px; }
-        /* line 862, /Users/Polik/Desktop/instagram/css/main.sass */
+        /* line 864, /Users/Polik/Desktop/instagram/css/main.sass */
         .about_body .row:nth-child(3n) .row_info {
           padding-top: 17px; }
-        /* line 864, /Users/Polik/Desktop/instagram/css/main.sass */
+        /* line 866, /Users/Polik/Desktop/instagram/css/main.sass */
         .about_body .row:nth-child(3n) p {
           margin-bottom: 24px; }
-      /* line 867, /Users/Polik/Desktop/instagram/css/main.sass */
+      /* line 869, /Users/Polik/Desktop/instagram/css/main.sass */
       .about_body .row img {
         object-fit: contain;
         position: absolute;
         top: -90px;
         left: 130px; }
-      /* line 872, /Users/Polik/Desktop/instagram/css/main.sass */
+      /* line 874, /Users/Polik/Desktop/instagram/css/main.sass */
       .about_body .row .btn {
         width: 262px;
         height: 60px;
@@ -981,7 +982,7 @@ p, li {
         background-image: -webkit-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
         background-image: -ms-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
         box-shadow: 0px 10px 37px 0px rgba(0, 0, 0, 0.5); }
-      /* line 880, /Users/Polik/Desktop/instagram/css/main.sass */
+      /* line 882, /Users/Polik/Desktop/instagram/css/main.sass */
       .about_body .row_img {
         display: -webkit-flex;
         display: -moz-flex;
@@ -991,13 +992,13 @@ p, li {
         align-items: center;
         position: relative; }
 
-/* line 889, /Users/Polik/Desktop/instagram/css/main.sass */
+/* line 891, /Users/Polik/Desktop/instagram/css/main.sass */
 .about2 {
   background: url(../img/why-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 70px; }
-  /* line 894, /Users/Polik/Desktop/instagram/css/main.sass */
+  /* line 896, /Users/Polik/Desktop/instagram/css/main.sass */
   .about2:after {
     content: '';
     background: url(../img/why-bg.png);
