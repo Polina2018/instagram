@@ -14,7 +14,7 @@
     font-weight: 500
     outline: none 
 .wr
-	width: 1170px
+	width: 1140px
 	max-width: 97%
 	margin-right: auto
 	margin-left: auto
@@ -141,7 +141,8 @@ p, li
             align-items: center
             height: 30px
             transition: all .2s ease
-            
+            &:nth-child(2)
+                margin-left: 12px
             a
                 color: #fff
                 font-size: 16px
@@ -157,7 +158,7 @@ p, li
                 letter-spacing: 0.1px
 .banner
     position: relative
-    height: 765px
+    height: 755px
     background: #fff
     background: url(../img/bg.svg) #f9fbff
     background-repeat: no-repeat
@@ -246,17 +247,18 @@ p, li
             width: 262px
             height: 60px
             font-weight: bold
-            bottom: 163px
+            bottom: 156px
             position: absolute
             
 .likigram 
     background: #f9fbff
     position: relative
-    background: url(../img/Vector.png) #f9fbff
+    background: #f9fbff
     background-repeat: no-repeat
     background-size: contain
     background-position: bottom
     padding-bottom: 175px
+    z-index: -1
     &:after
         background: url(../img/Vector.png)
         background-repeat: no-repeat
@@ -305,6 +307,7 @@ p, li
     &:before
         content: ''
         background: url(../img/Vector2.png) 
+        background: url(../img/bg2.png)
         background-repeat: no-repeat
         background-size: cover
         width: 100%
@@ -1094,5 +1097,25 @@ p, li
             position: absolute
             font-weight: bold
             cursor: pointer
-
-     
+.banner-followers
+    .banner_img
+        .img
+            background: url(../img/img-followers.png)
+            background-repeat: no-repeat
+            background-position: 50% 13%
+.banner-likes
+    .banner_img
+        .img
+            background: url(../img/likes-main.png)
+            background-repeat: no-repeat
+            background-position: 50% 13%
+            left: -97px
+            top: 132px
+    .btn
+        span
+            font-size: 24px
+            font-weight: bold
+            padding-left: 4px
+.likigram-likes  
+    .banner_img
+  
