@@ -163,7 +163,7 @@ p, li
     background: url(../img/bg.svg) #f9fbff
     background-repeat: no-repeat
     background-size: cover
-    z-index: 0
+    z-index: 2
     &:after
         background: url(../img/bg.svg)
         background-repeat: no-repeat
@@ -290,7 +290,7 @@ p, li
             position: relative
             padding-top: 63px
             img
-                height: 50px
+               
                 margin-bottom: 10px
                 position: absolute
                 top: 3px
@@ -312,6 +312,7 @@ p, li
     position: relative 
     padding-top: 65px
     padding-bottom: 200px
+    z-index: 0
     &:before
         content: ''
         background: url(../img/Vector2.png) 
@@ -332,9 +333,9 @@ p, li
         width: 100%
         height: 100%
         position: absolute
-        bottom: -92.8%
+        bottom: -90%
         left: 0
-        z-index: 7
+        z-index: 2
     .wr
         position: relative
         z-index: 2
@@ -801,7 +802,7 @@ p, li
     background: #f9fbff
     padding-top: 132px
     position: relative
-    z-index: -1
+    z-index: 1
     padding-bottom: 86px
   
         
@@ -822,7 +823,7 @@ p, li
             display: flex
             flex-direction: row
             justify-content: space-between
-            margin-bottom: 190px
+            margin-bottom: 186px
             
             &_info
                 width: 48.7%
@@ -835,36 +836,44 @@ p, li
                 justify-content: center
                 h2
                     margin-bottom: 12px
+           
                 p
                     line-height: 1.2 
                     margin-bottom: 44px
-                    width: 78%
+                    width: 79%
+                    span
+                        color: #392da7
+                        font-weight: bold
             
-            &:nth-child(2n)
+            &:nth-child(2)
                 flex-direction: row-reverse
+                margin-bottom: 192px
                 .row_info
                     align-items: flex-end
-                    width: 41.2%
+                    width: 40.1%
                     p
                         text-align: right
-                        width: 100%
+                        width: 104%
                         margin-bottom: 28px
                 img
                     left: auto
-                    right: 175px
+                    right: 171px
                     top: -80px
-            &:nth-child(3n)
+            &:nth-child(3)
                 padding-top: 16px
                 .row_info
-                    padding-top: 17px
+                    padding-top: 16px
+                    padding-left: 4px
                 p
                     margin-bottom: 24px
+                img
+                    left: 145px
                 
             img
                 object-fit: contain
                 position: absolute
                 top: -90px    
-                left: 130px
+                left: 103px
             .btn
                 width: 262px
                 height: 60px
@@ -876,6 +885,7 @@ p, li
                 span
                     font-size: 20px
                     font-weight: bold
+                    padding-left: 4px
                     
             
             &_img
@@ -902,11 +912,12 @@ p, li
         width: 100%
         height: 127%
         position: absolute
-        top: -168px
+        top: -180px
         left: 0
         z-index: -1
  
     .section_head
+        margin-bottom: 111px
         h2
             width: 50%
             margin-right: auto
@@ -943,8 +954,8 @@ p, li
                     font-weight: bold
                     line-height: 0.733
             .row_info
-                padding-left: 46px
-                width: 46.2%
+                padding-left: 29px
+                width: 45.2%
                 h2
                     font-size: 18px
                     margin-bottom: 15px
@@ -956,34 +967,39 @@ p, li
         .row1
             .row_img
                 img
-                    top: -182px
-                    left: 550px
+                    top: -181px
+                    left: 534px
                 span
-                    top: -218px
-                    left: 545px
+                    top: -216px
+                    left: 529px
         .row2
-            margin-bottom: 136px
+            margin-bottom: 140px
             .row_info
+                width: 46%
                 align-items: flex-start 
                 padding-left: 0 
                 p
                     text-align: left 
                     width: 92%
             img
-                right: 11px
+                right: 12px
                 top: -35px
             .row_img
                 span
-                    top: -66px
-                    left: 545px
+                    top: -67px
+                    left: 528px
         .row3
+            margin-bottom: 126px
             img
-                top: -135px
-                left: 548px
+                top: -158px
+                left: 534px
             .row_img
                 span
-                    top: -171px
-                    left: 541px
+                    top: -194px
+                    left: 525px
+            .row_info
+                h2
+                    margin-bottom: 13px
     .about_free
         border-radius: 15px
         width: 555px
@@ -1017,7 +1033,7 @@ p, li
             
 .why2
     position: relative
-    padding-top: 180px
+    padding-top: 225px
     background: #f9fbff
     padding-bottom: 70px
     z-index: -2
@@ -1030,7 +1046,7 @@ p, li
     .wh
         width: 50%
         padding: 0 6px
-        margin-bottom: 43px
+        margin-bottom: 53px
         img
             margin-bottom: 8px
             padding-left: 7px
@@ -1051,8 +1067,8 @@ p, li
         width: 163px
         height: 37px
         position: absolute
-        bottom: 10px
-        right: 415px
+        bottom: 29px
+        right: 399px
 .foot_purple2
     padding: 247px 0
     background: url(../img/foot-purple.svg) #f9fbff
@@ -1140,6 +1156,9 @@ p, li
             width: 24%
             img
                 margin-bottom: 14px
+.package-views
+    &:after
+        bottom: -93%
 .package-likes
     padding-top: 100px
     &:before
