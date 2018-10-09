@@ -50,6 +50,7 @@
         display: none;
     }
     .likigram {
+        padding-top: 73px;
         padding-bottom: 170px;
     }
     .package {
@@ -102,11 +103,192 @@
     
 }
 @media (max-width: 700px) {
+    .buy_slider p {
+        font-size: 15px;
+    }
+    .package:after {
+        display: none;
+    }
+    .buy_slider .swiper-buy {
+        width: 100%;
+    }
+    .swiper-container {
+        height: 310px;
+    }
+    .buy_slider .swiper-slide {
+            padding: 10px 23px;
+    }
+    .swiper-pagination {
+        
+        bottom: -14.5%;
+    }
+    .swiper-pagination-bullet-active {
+            width: 15px !important;
+    height: 15px !important;
+    }
+    .buy_slider {
+        margin-bottom: 100px;
+    }
+    .buy .section_head h2 {
+            width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .swiper-pagination-bullet {
+        width: 15px !important;
+    height: 15px !important;
+    }
+    .buy_how {
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+    }
+    .buy .buy_info__card {
+        width: 80%;
+    margin-bottom: 26px;}
+    .buy_info h3{
+        
+        width: 71%;
+        margin-bottom: 30px;
+    }
+    .buy:after {
+        content: none
+    }
+    .why {
+        padding-top: 70px;
+        padding-bottom: 43px;
+    }
+    .why .section_head h2 {
+        width: 100%;
+    }
+    .foot_purple {
+        padding-bottom: 30px;
+    }
+    
+    .buy {
+        background: none
+    }
+    .buy_how .card {
+        height: 290px;
+        width: 100%;
+            margin: 0;
+        padding: 56px;
+    margin-bottom: 20px;
+    }
+    .buy .section_head2 {
+    margin-bottom: 50px;
+}
+    .likigram {
+        padding-bottom: 70px;
+    }
+    .package:before {
+        top: -47px;
+    }
+    .likigram_body {
+        flex-wrap: wrap
+    }
+    .likigram_body .provide {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .likigram-likes .likigram_body .provide {
+        width: 100%;
+    }
+    .likigram.likigram-likes{
+    padding-bottom: 90px;
+}
+    .banner.banner-likes  .banner_img .img {
+            background-size: 43vh;
+    }
+    .likigram:after {
+    background: url(../img/vector-mob.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 104%;
+    position: absolute;
+    content: '';
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    height: 97%;
+    z-index: -1;
+ 
+    background-position: 100% 100%;
+    }
+    .package {
+        padding-top: 55px;
+    }
+    .package_body .card {
+        width: 292px;
+        margin: 0;
+        margin-bottom: 175px;
+    }
+    .package_body .card:last-child {
+        margin-bottom: 0;
+    }
+    .package .section_head {
+    margin-bottom: 100px;
+}
+    .likigram_body .provide h3 {
+        text-align: center
+    }
+    .likigram .section_head {
+        margin-bottom: 63px;
+        
+    }
+    .buy {
+        padding-top: 40px;
+    }
+    .buy:before {
+          background: url(../img/review-mob.png);
+    background-repeat: no-repeat;
+       background-size: 100% 83%;
+    width: 100%;
+    height: 123%;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    z-index: 1;
+    }
+    .buy .section_head h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+    .buy .section_head .rating span {
+        margin-right: 16px;
+    }
+    .buy .section_head .rating {
+            width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .buy .section_head p {
+        width: 100%;
+    }
+    .buy .section_head .rating {
+        margin-bottom: 16px;
+    }
    .foot_purple2 {
   
     background: url(../img/foot-purple-mob.svg) #f9fbff;
   
+       
 }
+    .why .section_head {
+        margin-bottom: 30px;
+    }
+    .why_body .wh {
+        margin-bottom: 59px;
+    padding: 0 12px;
+    width: 100%;
+        padding: 0;
+        margin-bottom: 32px;
+    }
+    .why_body{
+        margin-bottom: 17px;
+    }
+    .why_body .wh h3 {
+            padding: 0 11px;
+    }
     .about2:before {
             background: url(../img/vector-mob.png);
     background-repeat: no-repeat;
@@ -156,6 +338,9 @@
             bottom: -1.5%;
     }
     .banner {
+        height: 786px;
+    }
+    .banner-main {
         height: 730px;
            
         
@@ -165,17 +350,33 @@
     width: 100%;
 }
      .banner_info h1 {
+    width: 96%;
+        margin-bottom: 315px;
+}
+     .banner-main .banner_info h1 {
     width: 95%;
         margin-bottom: 179px;
 }
     .banner .wr {
+        padding-top: 119px;
+    }
+    .banner-main .wr {
         padding-top: 97px;
     }
     .banner_img {
         width: 100%;
         height: 170px;
     }
-     .banner_img .img,  .banner .banner_img .img {
+    .banner .banner_img .img {
+    background-size: 50vh;
+    position: absolute;
+    top: -53vh;
+    left: 0%;
+    left: 9%;
+    height: 46vh;
+    width: 100%;
+}
+     .banner-main .banner_img .img {
         background-size: 29vh;
     position: absolute;
     top: -337px;
@@ -191,8 +392,11 @@
     }
     .banner_img .btn {
         width: 100%;
-    bottom: 72px;
+    bottom: 97px;
     position: absolute;
+    }
+    .banner-main .banner_img .btn {
+         bottom: 72px; 
     }
     .banner:before {
             bottom: -96%;
@@ -447,12 +651,24 @@
     left: 88px;
    
 }
-   
+      .banner .banner_img .img {
+    background-size: 50vh;
+    position: absolute;
+    top: -53vh;
+    left: 0%;
+    left: 0;
+    height: 46vh;
+    width: 100%;
+}
      
   
    
 }
 @media (max-width: 375px) {
+    .banner .banner_img .img {
+         top: -52vh;
+    background-size: 42vh;
+    }
       .about_body .row_img {
     width: 77% !important;
 }
@@ -482,5 +698,13 @@
     background-size: 77%;}  
     .about_body .row_img {
     width: 90% !important;
+}
+    .banner .banner_img .img {
+    top: -71vh;
+         background-size: 50vh;
+}
+    .banner.banner-likes .banner_img .img {
+    background-size: 51vh;
+        height: 51vh;
 }
 }
