@@ -382,20 +382,20 @@
         height: 170px;
     }
     .banner .banner_img .img {
-    background-size: 50vh;
+    background-size: 54vmin;
     position: absolute;
-    top: -57vh;
+    top: -67vmin;
     left: 0%;
     left: 9%;
-    height: 46vh;
+    height: 54vmin;
     width: 100%;
 }
      .banner-main .banner_img .img {
-        background-size: 29vh;
+    background-size: 35vmin;
     position: absolute;
-    top: -337px;
-    left: 42%;
-    height: 36vh;
+    top: -59vmin;
+    left: 39vmin;
+    height: 35vmin;
     }
 
     .banner_info p {
@@ -682,7 +682,14 @@
     left: 0;
     height: 46vh;
     width: 100%;
-}   
+}  
+     .banner-main .banner_img .img {
+        background-size: 43vmin;
+    position: absolute;
+    top: -82vmin;
+    left: 39vmin;
+    height: 44vmin;
+}
 }
     
     @media (max-width: 500px)  {
@@ -692,22 +699,20 @@
    
 }
       .banner .banner_img .img {
-    background-size: 50vh;
+   background-size: 62vmin;
     position: absolute;
-    top: -59vh;
+    top: -86vmin;
     left: 0%;
-    left: 0;
-    height: 46vh;
+    height: 62vmin;
     width: 100%;
 }
     .banner-main .banner_img .img {
-    background-size: 31vh;
+       background-size: 39vmin;
     position: absolute;
-    top: -50vh;
-    left: 0%;
-    left: 18vh;
-    height: 46vh;
-    width: 100%;
+    top: -66vmin;
+    left: 39vmin;
+    height: 39vmin;
+        width: 100%;
 }
         .swiper-button-next, .swiper-button-prev {
             display: none;
@@ -721,16 +726,19 @@
     }
  
     .banner .banner_img .img {
-         top: -58vh;
-    background-size: 47vh;
+         top: -108vmin;
+    background-size: 85vmin;
+        height: 85vmin;
     }
       .about_body .row_img {
     width: 77% !important;
 }
-       .banner-main .banner_img .img {
-    top: -55vh;
-    background-size: 36vh;
-    left: 16vh;
+          .banner-main .banner_img .img {
+      background-size: 50vmin;
+    position: absolute;
+    top: -91vmin;
+    left: 39vmin;
+    height: 50vmin;
 }
    
 } 
@@ -761,17 +769,16 @@
     width: 90% !important;
 }
     .banner .banner_img .img {
-    top: -73vh;
-    background-size: 45vh;
-        height: 53vh;
+        top: -116vmin;
+
 }
     .banner.banner-likes .banner_img .img {
     background-size: 51vh;
         height: 51vh;
 }
-    .banner-main .banner_img .img {
-    top: -59vh;
-    background-size: 38vh;
+   .banner-main .banner_img .img {
+    top: -106vmin;
+    background-size: 65vmin;
     left: 32%;
 }
 }
