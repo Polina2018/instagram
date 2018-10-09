@@ -1,4 +1,8 @@
 @media (max-width: 1250px) {
+    .why2
+    {
+        padding-top: 100px
+    }
     .why2 .btn {
             bottom: -9%;
         right: auto;
@@ -323,7 +327,7 @@
     }
     .wr {max-width: 90%}
     h1, .banner_info h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
     .about2 .about_free {
         max-width: 100%
@@ -360,7 +364,7 @@
     width: 100%;
 }
      .banner_info h1 {
-    width: 96%;
+    width: 100%;
         margin-bottom: 315px;
 }
      .banner-main .banner_info h1 {
@@ -380,7 +384,7 @@
     .banner .banner_img .img {
     background-size: 50vh;
     position: absolute;
-    top: -53vh;
+    top: -57vh;
     left: 0%;
     left: 9%;
     height: 46vh;
@@ -690,7 +694,7 @@
       .banner .banner_img .img {
     background-size: 50vh;
     position: absolute;
-    top: -63vh;
+    top: -59vh;
     left: 0%;
     left: 0;
     height: 46vh;
@@ -699,17 +703,22 @@
     .banner-main .banner_img .img {
     background-size: 31vh;
     position: absolute;
-    top: -57vh;
+    top: -50vh;
     left: 0%;
     left: 18vh;
     height: 46vh;
     width: 100%;
 }
-     
+        .swiper-button-next, .swiper-button-prev {
+            display: none;
+        }   
   
    
 }
 @media (max-width: 375px) {
+    .banner-likes .banner_img .img {
+        left: 4vh;
+    }
  
     .banner .banner_img .img {
          top: -58vh;
@@ -719,7 +728,7 @@
     width: 77% !important;
 }
        .banner-main .banner_img .img {
-    top: -57vh;
+    top: -55vh;
     background-size: 36vh;
     left: 16vh;
 }
@@ -752,8 +761,8 @@
     width: 90% !important;
 }
     .banner .banner_img .img {
-    top: -76vh;
-    background-size: 53vh;
+    top: -73vh;
+    background-size: 45vh;
         height: 53vh;
 }
     .banner.banner-likes .banner_img .img {
