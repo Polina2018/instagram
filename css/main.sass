@@ -166,7 +166,7 @@ p, li
     background: #fff
     background: url(../img/bg.svg) #f9fbff
     background-repeat: no-repeat
-    background-size: cover
+    background-size: 100% 100%
     z-index: 2
     &:after
         background: url(../img/bg.svg)
@@ -661,7 +661,7 @@ p, li
     left: 33px !important 
         
 .swiper-pagination
-    left: 41%
+    left: 47%
     transform: translateY(-50%)
     bottom: -23%
 .swiper-pagination-bullet  
@@ -977,7 +977,7 @@ p, li
                     left: 1%
                 span
                     top: -48%
-                    left: 1%
+                    left: 0%
         .row2
             margin-bottom: 140px
             .row_info
@@ -993,13 +993,13 @@ p, li
             .row_img
                 span    
                     top: -53%
-                    right: 0.5%
+                    right: 0%
                     left: auto
         .row3
             margin-bottom: 126px
             img
                 top: -12%
-                left: 1.5%
+                left: 1%
             .row_img
                 span
                     top: -40%
@@ -1152,6 +1152,12 @@ p, li
             background-position: 50% 13%
             left: -97px
             top: 132px
+.banner-main
+    &:before
+        z-index: -1
+        height: 38%
+        position: absolute
+        bottom: -23%
     .btn
         span
             font-size: 24px
