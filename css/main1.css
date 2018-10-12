@@ -1,0 +1,1875 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Open+Sans:300,400,600,700,800&subset=cyrillic");
+/* line 3, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+*, html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-content-zooming: none;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  outline: none; }
+
+/* line 16, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.wr {
+  width: 1140px;
+  max-width: 97%;
+  margin-right: auto;
+  margin-left: auto; }
+
+/* line 21, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+img {
+  height: auto; }
+
+/* line 25, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+ul {
+  list-style: none; }
+
+/* line 28, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* line 33, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+section {
+  padding-top: 40px;
+  padding-bottom: 100px; }
+
+/* line 36, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif; }
+
+/* line 40, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif; }
+
+/* line 44, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+h3 {
+  font-size: 18px;
+  font-weight: 700; }
+
+/* line 47, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+h4 {
+  font-size: 17px; }
+
+/* line 50, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+p, li {
+  font-size: 16px; }
+
+/* line 53, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.btn {
+  color: #fff;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  border-radius: 15px;
+  background-image: -moz-linear-gradient(0deg, #ff0a46 0%, #ffa21e 100%);
+  background-image: -webkit-linear-gradient(0deg, #ff0a46 0%, #ffa21e 100%);
+  background-image: -ms-linear-gradient(0deg, #ff0a46 0%, #ffa21e 100%);
+  z-index: 5;
+  font-size: 16px;
+  color: #f9fbff;
+  width: 262px;
+  height: 60px;
+  font-weight: bold;
+  transition: all .3s ease; }
+  /* line 74, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .btn span {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 4px; }
+
+/* line 79, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.section_head {
+  z-index: 20;
+  margin-bottom: 100px; }
+  /* line 82, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .section_head h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; }
+
+/* line 89, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  height: 95px; }
+  /* line 96, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .header .wr {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center; }
+  /* line 105, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .header_logo {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex; }
+    /* line 111, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .header_logo img {
+      height: 36px; }
+  /* line 114, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .header_nav {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex; }
+  /* line 121, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .header .header_menu {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+  /* line 131, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .header ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex; }
+    /* line 138, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .header ul li {
+      margin-left: 29px;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      align-items: center;
+      height: 30px;
+      transition: all .2s ease; }
+      /* line 148, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .header ul li:nth-child(2) {
+        margin-left: 12px; }
+      /* line 150, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .header ul li a {
+        color: #fff;
+        font-size: 16px;
+        font-weight: normal; }
+    /* line 155, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .header ul li.active {
+      background: #fff;
+      padding: 0px 16px;
+      height: 30px;
+      border-radius: 25px; }
+      /* line 160, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .header ul li.active a {
+        color: #392da7;
+        letter-spacing: 0.1px; }
+
+/* line 163, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.banner {
+  position: relative;
+  height: 760px;
+  background: #fff;
+  background: url(../img/bg.svg) #f9fbff;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 2; }
+  /* line 171, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .banner:after {
+    background: url(../img/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; }
+  /* line 181, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .banner:before {
+    content: '';
+    background: url(../img/line2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -85%;
+    left: 0;
+    z-index: 7; }
+  /* line 193, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .banner .wr {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    height: 100%;
+    position: relative; }
+  /* line 203, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .banner_info {
+    z-index: 1;
+    width: 50%; }
+    /* line 207, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .banner_info h1 {
+      font-size: 36px;
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+      margin-bottom: 25px;
+      line-height: 1.2em;
+      width: 70%; }
+    /* line 215, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .banner_info p {
+      font-size: 16px;
+      font-weight: normal;
+      color: #fff;
+      line-height: 1.2em;
+      width: 78%; }
+  /* line 221, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .banner_img {
+    width: 50%;
+    z-index: 1;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 100%; }
+    /* line 232, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .banner_img .img {
+      width: 557px;
+      height: 525px;
+      left: -91px;
+      top: 165px;
+      background: url(../img/IMG.png);
+      background-repeat: no-repeat;
+      background-position: 50% 13%;
+      position: absolute;
+      background-position: center; }
+    /* line 242, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .banner_img .btn {
+      margin-bottom: auto;
+      border-radius: 15px;
+      background-image: -moz-linear-gradient(0deg, #ff0a46 0%, #ffa21e 100%);
+      background-image: -webkit-linear-gradient(0deg, #ff0a46 0%, #ffa21e 100%);
+      background-image: -ms-linear-gradient(0deg, #ff0a46 0%, #ffa21e 100%);
+      box-shadow: 0px 10px 37px 0px rgba(0, 0, 0, 0.5);
+      font-size: 16px;
+      color: #f9fbff;
+      width: 262px;
+      height: 60px;
+      font-weight: bold;
+      bottom: 156px;
+      position: absolute; }
+
+/* line 257, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.likigram {
+  background: #f9fbff;
+  position: relative;
+  background: #f9fbff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  padding-bottom: 175px;
+  z-index: -1;
+  padding-top: 40px; }
+  /* line 267, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .likigram:after {
+    background: url(../img/Vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0; }
+  /* line 277, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .likigram_body {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between; }
+    /* line 285, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .likigram_body .provide {
+      width: 23%;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      padding-top: 63px; }
+      /* line 296, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .likigram_body .provide img {
+        margin-bottom: 10px;
+        position: absolute;
+        top: 3px;
+        left: 50%;
+        transform: translateX(-50%); }
+      /* line 303, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .likigram_body .provide h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 8px;
+        line-height: 1.2; }
+      /* line 310, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .likigram_body .provide p {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center; }
+
+/* line 314, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.package {
+  background: #fff;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  z-index: 0; }
+  /* line 320, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .package:before {
+    content: '';
+    background: url(../img/Vector2.png);
+    background: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 111%;
+    position: absolute;
+    top: -127px;
+    left: 0;
+    z-index: 1; }
+  /* line 332, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .package:after {
+    content: '';
+    background: url(../img/line.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: -1%;
+    left: 0;
+    z-index: 2; }
+  /* line 343, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .package .wr {
+    position: relative;
+    z-index: 2; }
+  /* line 346, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .package .section_head {
+    margin-bottom: 110px; }
+  /* line 348, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .package_body {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    /* line 356, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .package_body .card {
+      margin: 0 38px;
+      border-radius: 15px;
+      background-color: white;
+      box-shadow: 0px 33px 60px 0px rgba(166, 54, 181, 0.2);
+      position: relative;
+      width: 263px;
+      height: 403px;
+      padding: 0 45px;
+      padding-top: 100px;
+      margin-bottom: 135px; }
+      /* line 368, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .package_body .card p {
+        font-size: 14px;
+        line-height: 2.286;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #000; }
+      /* line 374, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .package_body .card_views {
+        position: absolute;
+        top: -17%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #392da7;
+        border-radius: 50%;
+        width: 146px;
+        height: 146px;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; }
+        /* line 393, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+        .package_body .card_views span {
+          font-size: 24px;
+          font-weight: bold;
+          color: #fff;
+          line-height: .8em; }
+        /* line 398, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+        .package_body .card_views p {
+          font-size: 16px;
+          color: #fff;
+          line-height: 1.8em;
+          margin-bottom: 0; }
+      /* line 404, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .package_body .card h2 {
+        font-size: 24px;
+        font-family: 'Montserrat', sans-serif;
+        color: #392da7;
+        font-weight: bold;
+        text-align: center; }
+      /* line 411, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .package_body .card .btn {
+        position: absolute;
+        bottom: 9%;
+        border-radius: 10px;
+        background-image: -moz-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+        background-image: -webkit-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+        background-image: -ms-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+        width: 166px;
+        height: 60px;
+        font-size: 16px;
+        font-weight: bold;
+        left: 50%;
+        transform: translateX(-50%); }
+
+/* line 424, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.buy {
+  background: #fff;
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 70px;
+  background: url(../img/buy-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  /* line 432, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .buy:before {
+    content: '';
+    background: url(../img/buy-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 123%;
+    position: absolute;
+    top: -127px;
+    left: 0;
+    z-index: 1; }
+  /* line 443, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .buy:after {
+    content: '';
+    background: url(../img/line2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -104%;
+    left: 0;
+    z-index: 1; }
+  /* line 454, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .buy .wr {
+    position: relative;
+    z-index: 2; }
+  /* line 457, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .buy .section_head {
+    margin-bottom: 35px; }
+    /* line 459, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .buy .section_head h2 {
+      color: #fff;
+      margin-bottom: 35px; }
+    /* line 462, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .buy .section_head p {
+      color: #fff;
+      font-size: 16px;
+      text-align: center;
+      width: 50%;
+      line-height: 1.313;
+      margin-left: auto;
+      margin-right: auto; }
+    /* line 470, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .buy .section_head .rating {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px; }
+      /* line 479, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .buy .section_head .rating span {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        margin-right: 26px; }
+        /* line 484, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+        .buy .section_head .rating span:last-child {
+          margin-right: 0; }
+      /* line 486, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .buy .section_head .rating span.active {
+        background: url(../img/star-active.svg);
+        background-repeat: no-repeat;
+        background-size: contain; }
+      /* line 490, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .buy .section_head .rating span.active.half {
+        background: url(../img/star-half.svg);
+        background-repeat: no-repeat;
+        background-size: contain; }
+  /* line 494, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .buy .section_head2 {
+    margin-bottom: 60px; }
+    /* line 496, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .buy .section_head2 h2 {
+      color: #fff;
+      margin-bottom: 16px; }
+    /* line 499, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .buy .section_head2 p {
+      color: #fff;
+      font-size: 18px;
+      text-align: center;
+      width: 50%;
+      line-height: 1.313;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0; }
+  /* line 510, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .buy_slider {
+    margin-bottom: 130px;
+    position: relative; }
+    /* line 514, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .buy_slider h3 {
+      font-size: 18px;
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 20px; }
+    /* line 519, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .buy_slider p {
+      font-size: 16px;
+      line-height: 1.5;
+      font-weight: 500; }
+    /* line 523, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .buy_slider .swiper-buy {
+      width: 947px; }
+    /* line 525, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .buy_slider .swiper-slide {
+      padding: 58px;
+      border-radius: 15px;
+      max-width: 100%; }
+    /* line 532, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .buy_slider .item-rating {
+      text-align-last: auto;
+      font-size: 0;
+      margin-bottom: 15px; }
+    /* line 536, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .buy_slider .item-star {
+      display: inline-block;
+      vertical-align: middle;
+      width: 27px;
+      height: 25px;
+      margin-right: 5px; }
+  /* line 542, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .buy_how {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px; }
+    /* line 550, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .buy_how .card {
+      border-radius: 15px;
+      background: #fff;
+      width: 263px;
+      height: 263px;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 39px;
+      padding: 43px; }
+      /* line 565, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .buy_how .card span {
+        line-height: 1.2;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 13px;
+        font-size: 30px;
+        margin-left: auto;
+        margin-right: auto; }
+      /* line 573, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .buy_how .card p {
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: normal; }
+      /* line 579, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .buy_how .card img {
+        height: 69px;
+        width: 69px; }
+  /* line 582, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .buy_info {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    /* line 590, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .buy_info h3 {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      color: #fff;
+      line-height: 1.2;
+      margin-bottom: 55px;
+      font-weight: normal; }
+  /* line 598, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .buy .buy_info__card {
+    width: 26.8%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    /* line 607, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .buy .buy_info__card img {
+      margin-right: 10px; }
+    /* line 610, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .buy .buy_info__card p {
+      font-size: 18px;
+      color: #fff;
+      line-height: 1.2; }
+
+/* line 618, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  height: auto !important;
+  border-radius: 15px; }
+
+/* line 630, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.swiper-slide {
+  background: #fff;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column; }
+
+/* line 638, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.swiper-button-buy-next {
+  background: url(../img/right-arrow.svg) !important;
+  background-size: 50px 40px !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  height: 50px !important;
+  width: 40px !important;
+  margin: 0 !important;
+  top: 50% !important;
+  transform: translateY(-50%);
+  right: 33px !important;
+  z-index: 2; }
+
+/* line 651, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.swiper-button-buy-prev {
+  background: url(../img/right-arrow.svg) !important;
+  background-repeat: no-repeat !important;
+  background-size: 50px 40px !important;
+  background-position: center !important;
+  height: 50px !important;
+  width: 40px !important;
+  transform: rotate(180deg);
+  margin: 0 !important;
+  top: 39% !important;
+  z-index: 2;
+  left: 33px !important; }
+
+/* line 664, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.swiper-pagination {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  bottom: -23%; }
+
+/* line 668, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.swiper-pagination-bullet {
+  background: none !important;
+  border: 5px solid white !important;
+  width: 17px !important;
+  height: 17px !important;
+  margin-right: 10px;
+  opacity: 1 !important; }
+  /* line 676, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .swiper-pagination-bullet:last-child {
+    margin-right: 0; }
+
+/* line 678, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.swiper-pagination-bullet-active {
+  width: 17px !important;
+  height: 17px  !important;
+  border: 0 !important;
+  background-color: white !important; }
+
+/* line 683, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.foot_purple {
+  background: url(../img/foot-purple.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-bottom: 120px;
+  z-index: 1; }
+  /* line 692, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .foot_purple:before {
+    content: '';
+    background: url(../img/line.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -14%;
+    left: 0;
+    z-index: 1; }
+
+/* line 703, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.why {
+  position: relative;
+  padding-top: 240px;
+  background: url(../img/why-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 70px; }
+  /* line 710, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .why:before {
+    content: '';
+    background: url(../img/why-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; }
+  /* line 722, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .why .section_head {
+    margin-bottom: 45px; }
+    /* line 724, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .why .section_head h2 {
+      text-align: center;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto; }
+  /* line 730, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .why_body {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 37px; }
+    /* line 739, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .why_body .wh {
+      margin-bottom: 59px;
+      padding: 0 13px;
+      width: 45.9%; }
+      /* line 744, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .why_body .wh h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: bold;
+        margin-bottom: 15px; }
+      /* line 750, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .why_body .wh p {
+        font-size: 16px;
+        line-height: 1.5; }
+  /* line 753, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .why_footer {
+    font-size: 16px; }
+    /* line 755, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .why_footer p {
+      text-align: center; }
+
+/* line 757, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.footer {
+  padding: 54px 0; }
+  /* line 759, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .footer .wr {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  /* line 767, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .footer .foot_logo {
+    width: 180px;
+    max-width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    /* line 777, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .footer .foot_logo img {
+      object-fit: contain;
+      margin-bottom: 12px;
+      margin-top: 15px; }
+    /* line 781, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .footer .foot_logo p {
+      color: rgba(0, 0, 0, 0.502);
+      font-size: 12px;
+      line-height: 1.2;
+      text-align: center;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto; }
+  /* line 789, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .footer .foot_menu {
+    width: 554px;
+    max-width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between; }
+    /* line 798, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .footer .foot_menu ul {
+      width: 47%; }
+    /* line 800, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .footer .foot_menu li {
+      color: #392da7;
+      line-height: 1.5;
+      font-size: 14px; }
+
+/* line 806, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.about {
+  background: #f9fbff;
+  padding-top: 132px;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 86px; }
+  /* line 814, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .about_body {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap; }
+    /* line 822, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .about_body .row {
+      width: 100%;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 186px; }
+      /* line 833, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .about_body .row_info {
+        width: 48.7%;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        /* line 842, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+        .about_body .row_info h2 {
+          margin-bottom: 12px; }
+        /* line 845, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+        .about_body .row_info p {
+          line-height: 1.2;
+          margin-bottom: 44px;
+          width: 79%; }
+          /* line 849, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+          .about_body .row_info p span {
+            color: #392da7;
+            font-weight: bold; }
+      /* line 853, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .about_body .row:nth-child(2) {
+        flex-direction: row-reverse;
+        margin-bottom: 192px; }
+        /* line 856, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+        .about_body .row:nth-child(2) .row_info {
+          align-items: flex-end;
+          width: 40.1%; }
+          /* line 859, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+          .about_body .row:nth-child(2) .row_info p {
+            text-align: right;
+            width: 104%;
+            margin-bottom: 28px; }
+          /* line 863, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+          .about_body .row:nth-child(2) .row_info h2 {
+            text-align: right; }
+        /* line 865, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+        .about_body .row:nth-child(2) img {
+          left: -6%;
+          top: -80px; }
+      /* line 869, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .about_body .row:nth-child(3) {
+        padding-top: 16px; }
+        /* line 871, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+        .about_body .row:nth-child(3) .row_info {
+          padding-top: 16px;
+          padding-left: 4px; }
+        /* line 874, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+        .about_body .row:nth-child(3) p {
+          margin-bottom: 24px; }
+        /* line 876, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+        .about_body .row:nth-child(3) img {
+          left: 145px; }
+      /* line 879, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .about_body .row img {
+        object-fit: contain;
+        position: absolute;
+        top: -90px;
+        left: 103px; }
+      /* line 884, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .about_body .row .btn {
+        width: 262px;
+        height: 60px;
+        background-image: -moz-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+        background-image: -webkit-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+        background-image: -ms-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+        box-shadow: 0px 10px 37px 0px rgba(0, 0, 0, 0.5);
+        font-size: 14px; }
+        /* line 892, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+        .about_body .row .btn span {
+          font-size: 20px;
+          font-weight: bold;
+          padding-left: 4px; }
+      /* line 898, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .about_body .row_img {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 50%; }
+
+/* line 909, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.about2 {
+  background: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 61px;
+  padding-top: 0; }
+  /* line 915, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .about2:after {
+    content: '';
+    background: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 127%;
+    position: absolute;
+    top: -180px;
+    left: 0;
+    z-index: -1; }
+  /* line 927, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .about2 .section_head {
+    margin-bottom: 111px; }
+    /* line 929, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .about2 .section_head h2 {
+      width: 50%;
+      margin-right: auto;
+      margin-left: auto; }
+  /* line 934, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .about2 .about_body .row {
+    flex-direction: row-reverse;
+    margin-bottom: 147px; }
+    /* line 937, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .about2 .about_body .row:nth-child(2n) {
+      flex-direction: row; }
+    /* line 939, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .about2 .about_body .row .row_img {
+      width: 54%; }
+      /* line 941, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .about2 .about_body .row .row_img span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 50%;
+        background-image: -moz-linear-gradient(135deg, #4d5ed2 0%, #a935b4 100%);
+        background-image: -webkit-linear-gradient(135deg, #4d5ed2 0%, #a935b4 100%);
+        background-image: -ms-linear-gradient(135deg, #4d5ed2 0%, #a935b4 100%);
+        box-shadow: 0px 3px 10px 0px rgba(169, 53, 180, 0.3);
+        width: 84px;
+        height: 84px;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        line-height: 0.733; }
+    /* line 964, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .about2 .about_body .row .row_info {
+      padding-left: 29px;
+      width: 45.2%; }
+      /* line 967, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .about2 .about_body .row .row_info h2 {
+        font-size: 18px;
+        margin-bottom: 15px; }
+      /* line 970, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .about2 .about_body .row .row_info p {
+        margin-bottom: 0;
+        line-height: 1.467;
+        font-size: 15px;
+        width: 97%; }
+  /* line 977, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .about2 .about_body .row1 .row_img img {
+    top: -26%;
+    left: 1%; }
+  /* line 980, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .about2 .about_body .row1 .row_img span {
+    top: -48%;
+    left: 0%; }
+  /* line 983, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .about2 .about_body .row2 {
+    margin-bottom: 140px; }
+    /* line 985, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .about2 .about_body .row2 .row_info {
+      width: 46%;
+      align-items: flex-start;
+      padding-left: 0; }
+      /* line 989, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .about2 .about_body .row2 .row_info p {
+        text-align: left;
+        width: 92%; }
+    /* line 992, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .about2 .about_body .row2 img {
+      right: 2%;
+      top: -25%; }
+    /* line 996, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .about2 .about_body .row2 .row_img span {
+      top: -53%;
+      right: 0%;
+      left: auto; }
+  /* line 1000, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .about2 .about_body .row3 {
+    margin-bottom: 126px; }
+    /* line 1002, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .about2 .about_body .row3 img {
+      top: -12%;
+      left: 1%; }
+    /* line 1006, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .about2 .about_body .row3 .row_img span {
+      top: -40%;
+      left: 0; }
+    /* line 1010, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .about2 .about_body .row3 .row_info h2 {
+      margin-bottom: 13px; }
+  /* line 1012, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .about2 .about_free {
+    border-radius: 15px;
+    width: 555px;
+    height: 233px;
+    padding: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 33px 60px 0px rgba(166, 54, 181, 0.2);
+    background-image: -moz-linear-gradient(135deg, #4d5ed2 0%, #a935b4 100%);
+    background-image: -webkit-linear-gradient(135deg, #4d5ed2 0%, #a935b4 100%);
+    background-image: -ms-linear-gradient(135deg, #4d5ed2 0%, #a935b4 100%); }
+    /* line 1023, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .about2 .about_free h3 {
+      font-size: 18px;
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 28px; }
+    /* line 1029, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .about2 .about_free p {
+      font-size: 16px;
+      color: #fff;
+      text-align: center;
+      line-height: 1.2; }
+    /* line 1034, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .about2 .about_free .btn {
+      margin-top: 35px;
+      width: 262px;
+      height: 60px;
+      box-shadow: 0px 10px 37px 0px rgba(0, 0, 0, 0.5);
+      font-size: 16px;
+      margin-left: auto;
+      margin-right: auto; }
+
+/* line 1043, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.why2 {
+  position: relative;
+  padding-top: 225px;
+  background: #f9fbff;
+  padding-bottom: 70px;
+  z-index: 0; }
+  /* line 1049, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .why2:before {
+    content: none; }
+  /* line 1051, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .why2 .section_head {
+    margin-bottom: 68px; }
+  /* line 1053, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .why2 .why_body {
+    position: relative; }
+  /* line 1055, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .why2 .wh {
+    width: 50%;
+    padding: 0 6px;
+    margin-bottom: 53px; }
+    /* line 1059, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .why2 .wh img {
+      margin-bottom: 8px;
+      padding-left: 7px; }
+    /* line 1063, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .why2 .wh h3 {
+      font-size: 16px;
+      margin-bottom: 14px; }
+    /* line 1066, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .why2 .wh p {
+      font-size: 14px;
+      line-height: 1.3;
+      margin-bottom: 3px;
+      width: 77%; }
+  /* line 1071, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .why2 .btn {
+    border-radius: 10px;
+    background-image: -moz-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+    background-image: -webkit-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+    background-image: -ms-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+    width: 163px;
+    height: 37px;
+    position: absolute;
+    bottom: 29px;
+    right: 399px; }
+
+/* line 1081, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.foot_purple2 {
+  padding: 247px 0;
+  background: url(../img/foot-purple.svg) #f9fbff;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  /* line 1086, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .foot_purple2:before {
+    top: -3%; }
+  /* line 1088, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .foot_purple2 .wr {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    /* line 1097, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .foot_purple2 .wr h2 {
+      color: #fff;
+      margin-bottom: 20px; }
+    /* line 1100, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .foot_purple2 .wr p {
+      font-size: 18px;
+      color: #fff;
+      margin-bottom: 19px;
+      width: 48%;
+      text-align: center; }
+    /* line 1106, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .foot_purple2 .wr form {
+      margin-top: 32px;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 5; }
+    /* line 1117, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .foot_purple2 .wr input[type=text] {
+      background-color: white;
+      width: 360px;
+      height: 60px;
+      position: relative;
+      font-size: 14px;
+      border-radius: 50px;
+      padding-left: 21px;
+      border: 0;
+      cursor: pointer; }
+      /* line 1127, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .foot_purple2 .wr input[type=text]:placeholder {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.502); }
+    /* line 1130, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .foot_purple2 .wr input[type=submit] {
+      border-radius: 50%;
+      background-color: #6055cc;
+      width: 50px;
+      height: 50px;
+      font-size: 16px;
+      color: #f9fbff;
+      border: 0;
+      right: 7px;
+      position: absolute;
+      font-weight: bold;
+      cursor: pointer;
+      -webkit-appearance: none;
+      padding: 0; }
+
+/* line 1146, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.banner-followers .banner_img .img {
+  background: url(../img/img-followers.png);
+  background-repeat: no-repeat;
+  background-position: 50% 13%; }
+
+/* line 1152, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.banner-likes .banner_img .img {
+  background: url(../img/likes-main.png);
+  background-repeat: no-repeat;
+  background-position: 50% 13%;
+  left: -97px;
+  top: 132px; }
+
+/* line 1159, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.banner-main:before {
+  z-index: -1;
+  height: 38%;
+  position: absolute;
+  bottom: -23%; }
+
+/* line 1165, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.banner-main .btn span {
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 4px; }
+
+/* line 1172, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.likigram-likes .likigram_body .provide {
+  width: 24%; }
+  /* line 1174, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .likigram-likes .likigram_body .provide img {
+    margin-bottom: 14px; }
+
+/* line 1177, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.package-views:after {
+  bottom: -2%; }
+
+/* line 1180, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.package-likes {
+  padding-top: 100px; }
+  /* line 1182, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .package-likes:before {
+    top: -100px; }
+  /* line 1184, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .package-likes .section_head {
+    margin-bottom: 110px; }
+  /* line 1187, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .package-likes .package_body .card {
+    padding-top: 99px;
+    margin-bottom: 150px; }
+    /* line 1190, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .package-likes .package_body .card p {
+      margin-bottom: 22px; }
+  /* line 1193, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .package-likes .package_body .card_views p {
+    margin-bottom: 0; }
+  /* line 1195, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .package-likes .package_body .btn {
+    bottom: 10%; }
+
+/* line 1197, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.buy-likes {
+  padding-top: 13px; }
+  /* line 1199, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .buy-likes .buy_info__card {
+    width: 26.7%; }
+
+/* line 1201, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.why-likes {
+  padding-top: 178px;
+  padding-bottom: 37px; }
+  /* line 1204, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .why-likes .wh {
+    width: 45.5%;
+    margin-bottom: 55px;
+    padding: 0 17px; }
+    /* line 1208, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .why-likes .wh:nth-child(3), .why-likes .wh:nth-child(4) {
+      margin-bottom: 29px; }
+  /* line 1210, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .why-likes .why_body {
+    margin-bottom: 0; }
+
+/* line 1214, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.banner-main .banner_info h1 {
+  width: 83%; }
+
+/* line 1217, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.banner-main .banner_img .img {
+  left: -93px;
+  top: 158px;
+  width: 557px;
+  height: 525px;
+  background: url(../img/main.png);
+  background-repeat: no-repeat;
+  background-position: 50% 13%;
+  position: absolute; }
+
+/* line 1226, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.header-1 {
+  background-image: -moz-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+  background-image: -webkit-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+  background-image: -ms-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+  position: relative; }
+
+/* line 1231, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.faq, .blog {
+  background: #fafafa; }
+  /* line 1233, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .faq .section_head, .blog .section_head {
+    position: relative;
+    margin-bottom: 60px; }
+    /* line 1236, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .faq .section_head h2, .blog .section_head h2 {
+      position: relative;
+      margin-bottom: 20px; }
+      /* line 1239, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .faq .section_head h2:after, .blog .section_head h2:after {
+        height: 15px;
+        width: 80px;
+        background: rgba(82, 109, 198, 0.9);
+        z-index: -1;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        top: 55%;
+        -webkit-transform: skew(-28deg) translateX(-50%);
+        transform: skew(-28deg) translateX(-50%);
+        content: ''; }
+    /* line 1251, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .faq .section_head p, .blog .section_head p {
+      width: 50%;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 15px;
+      color: #636363;
+      line-height: 1.4; }
+      /* line 1259, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .faq .section_head p a, .blog .section_head p a {
+        color: #526dc6;
+        font-weight: 600;
+        text-decoration: underline; }
+
+/* line 1263, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.faq_body {
+  max-width: 670px;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 1270, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .faq_body .question {
+    width: 100%;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    text-align: left;
+    -webkit-box-shadow: 0 7px 14px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 7px 14px 1px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px; }
+    /* line 1279, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .faq_body .question .question_head {
+      cursor: pointer;
+      padding: 30px; }
+      /* line 1282, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .faq_body .question .question_head img {
+        transform: rotate(0deg);
+        -webkit-transition: all .2s linear;
+        transition: all .2s linear;
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        vertical-align: middle; }
+      /* line 1292, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .faq_body .question .question_head h3 {
+        width: calc(100% - 35px);
+        padding-left: 10px;
+        color: #636363;
+        font-weight: 400;
+        line-height: 120%;
+        display: inline-block;
+        vertical-align: middle; }
+    /* line 1301, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .faq_body .question .question_body {
+      transition: all .2s ease;
+      display: none; }
+      /* line 1305, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .faq_body .question .question_body p {
+        padding: 30px;
+        padding-top: 0;
+        font-size: 15px;
+        color: #aaa;
+        line-height: 150%; }
+  /* line 1314, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .faq_body .question.expanded .question_head img {
+    transform: rotate(0deg); }
+  /* line 1316, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .faq_body .question.expanded .question_body {
+    transition: all .2s ease;
+    display: block; }
+
+/* line 1319, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.faq_form {
+  background-image: -moz-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+  background-image: -webkit-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+  background-image: -ms-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+  padding: 60px 0; }
+  /* line 1324, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .faq_form .section_head {
+    margin-bottom: 60px; }
+    /* line 1326, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .faq_form .section_head h2 {
+      color: #fff;
+      margin-bottom: 20px; }
+    /* line 1329, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .faq_form .section_head p {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      color: #fff;
+      text-align: center; }
+
+/* line 1335, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.faq_form__body {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 1339, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .faq_form__body form {
+    max-width: 500px;
+    width: calc(100% - 80px);
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px 40px 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+    text-align: left;
+    -webkit-box-shadow: 0 7px 14px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 7px 14px 1px rgba(0, 0, 0, 0.15); }
+    /* line 1351, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .faq_form__body form .form-input {
+      padding: 10px 0;
+      display: block;
+      width: 100%;
+      position: relative; }
+      /* line 1357, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .faq_form__body form .form-input label {
+        font-weight: 900;
+        font-size: 14px;
+        color: #526dc6;
+        padding-bottom: 8px;
+        display: block; }
+    /* line 1364, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .faq_form__body form .form-input.half {
+      padding: 10px 0;
+      width: calc(50% - 10px);
+      display: inline-block;
+      vertical-align: top; }
+      /* line 1369, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .faq_form__body form .form-input.half:nth-child(2) {
+        margin-left: 15px; }
+    /* line 1371, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .faq_form__body form #form-name-input, .faq_form__body form #form-email-input, .faq_form__body form #form-subject-select {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 30px;
+      line-height: 100%;
+      border: 1px solid #e0e0e0;
+      border-radius: 6px;
+      color: #636363;
+      font-weight: 400;
+      font-size: 16px;
+      padding: 5px 10px; }
+    /* line 1383, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .faq_form__body form .icon {
+      width: 20px;
+      height: 20px;
+      padding: 5px;
+      right: 7px;
+      bottom: 15px;
+      position: absolute;
+      z-index: 5;
+      pointer-events: none;
+      cursor: pointer; }
+    /* line 1393, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .faq_form__body form #form-message-input {
+      -webkit-appearance: none;
+      outline: 0;
+      padding: 0;
+      border: 0;
+      margin: 0;
+      width: 100%;
+      height: 120px;
+      border: 1px solid #e0e0e0;
+      border-radius: 6px;
+      resize: vertical;
+      color: #636363;
+      font-size: 16px;
+      line-height: 120%;
+      font-weight: 400;
+      padding: 11px 10px;
+      margin-bottom: 10px; }
+    /* line 1410, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .faq_form__body form select {
+      background: #fff; }
+    /* line 1412, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .faq_form__body form .btn {
+      background-image: -moz-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+      background-image: -webkit-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+      background-image: -ms-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+      width: 200px;
+      border-radius: 6px;
+      box-shadow: 0 6px 10px 1px rgba(0, 0, 0, 0.1);
+      height: 50px; }
+
+/* line 1420, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.blog_body {
+  max-width: 800px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  justify-content: center;
+  margin-right: auto; }
+  /* line 1432, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .blog_body h3 {
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-size: 23px;
+    font-weight: 900;
+    display: block;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif; }
+  /* line 1441, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .blog_body .blog_block {
+    width: calc(50% - 20px);
+    margin: 10px;
+    margin-bottom: 40px;
+    display: inline-block;
+    vertical-align: top;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 7px 14px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 7px 14px 1px rgba(0, 0, 0, 0.15);
+    max-width: 370px; }
+  /* line 1452, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .blog_body .blog_img {
+    width: 100%;
+    height: 240px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+    background-position: 50%; }
+  /* line 1459, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .blog_body .blog_info {
+    padding: 40px;
+    text-align: left; }
+    /* line 1462, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .blog_body .blog_info h3 {
+      font-weight: 800;
+      font-size: 20px;
+      padding-bottom: 10px;
+      line-height: 1.2;
+      font-family: 'Montserrat', sans-serif;
+      padding-left: 0;
+      padding-top: 0; }
+    /* line 1470, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .blog_body .blog_info span {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 130%;
+      padding-bottom: 20px;
+      color: #aaa;
+      display: block; }
+    /* line 1477, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .blog_body .blog_info p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 130%;
+      padding-bottom: 20px;
+      color: #636363; }
+    /* line 1483, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .blog_body .blog_info a {
+      font-weight: 900;
+      font-size: 16px;
+      color: #526dc6; }
+
+/* line 1488, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.article {
+  padding: 100px 0;
+  background: #fafafa; }
+  /* line 1491, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .article .wr {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  /* line 1499, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .article a.back {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #526dc6;
+    margin-right: auto; }
+  /* line 1506, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .article_header {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: left;
+    padding-bottom: 10px; }
+  /* line 1512, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .article span {
+    font-weight: 400;
+    color: #aeaeae;
+    font-size: 14px;
+    display: block; }
+  /* line 1518, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .article .article_img {
+    width: 100%;
+    height: 470px;
+    max-width: 770px;
+    display: block;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 7px 14px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 7px 14px 1px rgba(0, 0, 0, 0.15); }
+  /* line 1528, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .article .article_content {
+    width: 100%;
+    max-width: 800px;
+    padding-top: 40px;
+    display: block; }
+  /* line 1533, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .article .article-posted {
+    width: 80px;
+    height: auto;
+    vertical-align: top;
+    text-align: center;
+    border-top: 2px solid #526dc6;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px; }
+    /* line 1542, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .article .article-posted .day {
+      font-size: 30px;
+      font-weight: 900;
+      color: #636363;
+      padding: 20px 0 10px; }
+    /* line 1547, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .article .article-posted .month {
+      font-size: 14px;
+      padding-bottom: 2px;
+      text-transform: uppercase;
+      line-height: 120%;
+      font-weight: 400;
+      color: #aeaeae; }
+    /* line 1554, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .article .article-posted .year {
+      font-size: 14px;
+      padding-bottom: 2px;
+      text-transform: uppercase;
+      line-height: 120%;
+      font-weight: 400;
+      color: #aeaeae; }
+  /* line 1561, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .article .article-info {
+    width: 100%;
+    padding-right: 0px;
+    height: auto;
+    vertical-align: top;
+    text-align: justify; }
+    /* line 1567, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .article .article-info p {
+      width: 100%;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 1.4;
+      color: #636363;
+      margin-bottom: 10px; }
+      /* line 1574, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+      .article .article-info p img {
+        width: 100%; }
+    /* line 1576, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+    .article .article-info h1, .article .article-info h2, .article .article-info h3, .article .article-info h4, .article .article-info h5 {
+      width: 100%;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 130%;
+      margin-bottom: 15px; }
+
+/* line 1582, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.ask {
+  background-image: -moz-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+  background-image: -webkit-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+  background-image: -ms-linear-gradient(0deg, #a935b4 0%, #4d5ed2 100%);
+  position: relative;
+  padding: 50px 0 170px; }
+
+/* line 1589, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.search {
+  position: relative;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 1594, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .search:before {
+    content: " ";
+    font-size: 14px;
+    line-height: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 24px;
+    width: 32px;
+    height: 32px;
+    z-index: 3;
+    background: url(../img/search.svg);
+    background-size: contain; }
+  /* line 1608, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .search input {
+    font-weight: 300;
+    max-width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    transition: border .12s ease-in-out;
+    border: none; }
+  /* line 1615, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .search #query {
+    line-height: 1.2em;
+    font-weight: lighter;
+    padding: 0.95em 2.7em;
+    width: 100%;
+    -webkit-appearance: none;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 36px 67px 0 rgba(0, 0, 0, 0.2);
+    padding-left: 80px;
+    padding-right: 33px;
+    height: 64px; }
+
+/* line 1629, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.faq_form1 {
+  background: #fafafa;
+  padding-top: 20px; }
+  /* line 1633, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+  .faq_form1 .section_head h2, .faq_form1 .section_head p {
+    color: #000; }
+
+/* line 1636, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+.backgrey {
+  width: 100%;
+  bottom: 56px;
+  left: 0;
+  background: url(https://stormlikes.com/img/sep-grey.svg) repeat-x;
+  background-size: cover;
+  background-position: center top;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center top;
+  height: 100px; }
+
+/* line 1653, /Applications/MAMP/htdocs/instagram/css/main1.sass */
+br {
+  display: none !important; }
+
+/*# sourceMappingURL=main1.css.map */

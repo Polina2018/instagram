@@ -27,6 +27,14 @@
                     </ul>
                 </div>
             </div>
+            <div class="header_btns">
+           
+            <div class="open_menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
         </div>
     </div>
     <div class="banner banner-followers">
@@ -237,6 +245,27 @@ All rights reserved</p>
         el: '.swiper-pagination-buy',
       }
         , });
+    </script><script>
+    
+      $(document).ready(function(){
+        
+        $('.open_menu').click(function(){
+          if($(this).hasClass('active')) {
+              
+            $(this).removeClass('active');
+            $('.header_nav').removeClass('active');
+              $('.header').removeClass('header-2');
+          } else {
+            $(this).addClass('active');
+            $('.header_nav').addClass('active');
+              $('.header').addClass('header-2');
+          }
+        });
+
+        
+        
+      });
+    
     </script>
 </body>
 
